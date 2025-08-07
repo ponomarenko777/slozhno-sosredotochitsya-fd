@@ -30,6 +30,10 @@
   .rec {
     color: transparent;
   }
+  .rec::after {
+   background-color: transparent;
+   box-shadow: 0 0 0px 0px;
+  }
 ;
 ;
 }
