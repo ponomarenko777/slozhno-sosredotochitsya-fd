@@ -1,5 +1,4 @@
 /* Глобальные стили для проекта, их можно дополнять и менять по желанию */
-
 *,
 *::before,
 *::after {
@@ -7,11 +6,17 @@
 }
 
 body {
-  min-inline-size: 375px;
+  min-inline-size: 355px;
   max-inline-size: 1440px;
   margin: 0 auto;
+  font-family: 'IBM Plex mono',sans-serif, Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  overflow-x: hidden;
 }
-
+ 
 h1,
 h2,
 h3,

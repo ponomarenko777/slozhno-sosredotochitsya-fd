@@ -2,3 +2,45 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+:root.theme-dark {
+  --background-image: url('/images/cover-image-dark.png');
+  --background-color:rgb(0 0 38);
+  --accent-color:#FF0070;
+  --text-color:#F1B2CE;
+  --title-color:#DB00FF;
+  --decor-color:#FF0070;
+  
+
+}
+:root.theme-light {
+  --background-image: url('/images/cover-image-light.png');
+  --background-color:rgb(248 237 242);
+  --accent-color:#FF8DCB;
+  --text-color:#353430;
+  --title-color:#FFC2E6;
+  --decor-color:#353430;
+
+
+
+
+  .circle {
+   background-color:  transparent;
+    box-shadow:none;
+  }
+  .rec {
+    color: transparent;
+  }
+;
+;
+}
+
+@media (width<=1400px){
+
+}
+
+@media (width<=1024px){
+  
+}
+@media (width<=700px){
+  
+}
