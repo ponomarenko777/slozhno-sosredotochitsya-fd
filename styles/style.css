@@ -1,10 +1,9 @@
-/* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 .rec {
-font-weight: 400;
-font-size: 18px;
-line-height: 25px;
-color: #FF0070;
-}
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FF0070;
+} 
 .rec::after {
   content: "";
   display: inline-block;
@@ -17,13 +16,11 @@ color: #FF0070;
   z-index: -1;
   transform: translateY(90%) translateX(12px);
 }
-
 .cub-up {
-  
   width: 25px;
   height: 25px;
-  border-top: 1px solid var( --decor-color);
-  border-right: 1px solid var( --decor-color);
+  border-top: 1px solid var(--decor-color);
+  border-right: 1px solid var(--decor-color);
   position: relative;
   display: flex;
   align-items: center;
@@ -31,16 +28,13 @@ color: #FF0070;
   background-color:transparent;
   z-index: 1;
 }
-
 .cub-down {
   width: 25px;
   height: 25px;
-  border-bottom: 1px solid var( --decor-color);
-  border-left: 1px solid var( --decor-color); 
+  border-bottom: 1px solid var(--decor-color);
+  border-left: 1px solid var(--decor-color); 
   justify-self:left; 
   align-self:flex-end; 
-
-
 }
 .wrapper {
   display: flex;
@@ -57,8 +51,8 @@ color: #FF0070;
   min-inline-size: 355px;
   align-self:center;
   padding-bottom: 10px;
+  grid-template-rows:62px 167px 247px 117px 55px;
 }
-
 .footer {
   display: grid;
   padding-top: 10px;
@@ -68,15 +62,15 @@ color: #FF0070;
   min-inline-size: 355px;
   overflow-x: hidden;
   position: relative;
-
-  
-
+  grid-template-rows:70px 513px 65px;
+  letter-spacing: -2px;
 }
 .header__theme-menu-list {
   display: grid;
   justify-self:end;
   gap: 10px;
-  
+  font-size: 18px; 
+  padding-right: 8px;
 }
 .header__theme-menu-button {
   background-color:transparent;
@@ -87,22 +81,21 @@ color: #FF0070;
   border:1px solid var(--decor-color);
 }
 .header__theme-menu-button:focus{
-border-top: none;
-border-left: none;
-border-right: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
 }
 .header__theme-menu-item{
   color:transparent;
   background-color:transparent;
-  
 }
 .links {
-text-decoration: none;
-font-weight: 400;
-font-size: 18px;
-line-height: 23.4px;
-color: var(--text-color);
-text-shadow: 2px 2px 0 var(--accent-color);
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23.4px;
+  color: var(--text-color);
+  text-shadow: 2px 2px 0 var(--accent-color);
 }
 .links:hover {
   border:none;
@@ -114,26 +107,23 @@ text-shadow: 2px 2px 0 var(--accent-color);
 }
 .page {
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
-background-image:var(--background-image);
-background-position: center;
-background-size: cover;
-background-repeat: no-repeat;
-background-attachment: fixed;
-background-color:var(--background-color);
-/* block-size: 100vh;
-min-block-size: 668px; */
-/* min-inline-size: 375px; */
-
+  background-image:var(--background-image);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color:var(--background-color);
+  block-size: 100vh;
+  min-block-size: 668px;
+  min-inline-size: 375px;
 }
 .title {
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   font-weight: 700;
   color: var(--title-color);
   text-shadow: 4px 4px 0 var(--accent-color);
-  line-height: 83%;
-  /* align-items: center; */
-  align-self: center
-
+  line-height: 81%;
+  letter-spacing: -3px;
 }
 .title-text {
   background-color: var(--accent-color);
@@ -144,50 +134,41 @@ min-block-size: 668px; */
   height: 117px;
   inline-size: 355px;
   align-self: end;
-
-  justify-content: center;
- 
-
+  z-index: 1;
 }
 .teg-var {
-
-font-weight: 700;
-font-size: 18px;
-line-height: 23.4px;
-color: #000028;
-background-color:var(--accent-color);
-min-inline-size: 355px;
-margin-block-end: 10px;
-
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23.4px;
+  color: #000028;
+  background-color:var(--accent-color);
+  min-inline-size: 355px;
+  margin-block-end:11px;
 }
 .teg-var_var {
-font-weight: 400;
-font-size: 18px;
-line-height: 23.4px;
-color: #000028;
-background-color:var(--accent-color);
-width: 355px;
-margin-block-end: 10px;
-
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23.4px;
+  color: #000028;
+  background-color:var(--accent-color);
+  width: 355px;
+  margin-block-end: 11px;
 }
-
 .teg {
-font-weight: 700;
-font-size: 18px;
-line-height: 23.4px;
-color: var(--decor-color);
-width: 355px;
-margin-block-end: 20px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23.4px;
+  color: var(--decor-color);
+  width: 355px;
+  margin-block-end:19px;
 }
-
 .teg-text {
-font-weight: 400;
-font-size: 18px;
-color: var(--text-color);
-width: 355px;
-margin-block-end: 20px;
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--text-color);
+  width: 355px;
+  margin-block-end: 17px;
 }
-
 .gallery-item {
   inline-size: 100%;
   box-sizing: border-box;
@@ -201,22 +182,7 @@ margin-block-end: 20px;
   gap: 10px;
   min-width: 355px;
   grid-auto-flow:dense;
-    /* display: grid;
-  grid-template-columns: repeat(4, 1fr) 2fr 200px;
-  grid-template-rows: repeat(6, 1fr);
-  gap: 10px;
-  box-sizing: border-box;
-  min-block-size: calc(100vh - 5em);
-  padding: 0 4em 4em;
-  grid-auto-flow:dense;  */
-
-  
-
-
-}
-.block-question {
-  margin-block-start:40px;
-}
+  }
 .title-down {
   display: grid;
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
@@ -227,12 +193,33 @@ margin-block-end: 20px;
   align-self: center;
   justify-content: center;
 }
-
 .hidden {
-inline-size: 355px;
+  inline-size: 355px;
 }
 .header__corner{
-  height: 25px;
+  display: block;
+  align-content: end;
+}
+.footer__corner {
+  display: block;
+  align-content: end;
   justify-content: end;
-  
+}
+.block-question.top-section {
+  display: grid;
+  margin-block-start: 40px;
+}
+.block-question.midle-section {
+  display: grid;
+  margin-block-start: 31px;
+}
+.block-question.down-section {
+  display: grid;
+  margin-block-start: 32px;
+}
+.teg-var.recomendation {
+  margin-block-end: 20px;
+}
+.teg-var.gallery {
+  margin-block-start: 31px;
 }
