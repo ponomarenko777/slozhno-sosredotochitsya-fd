@@ -140,6 +140,7 @@
   line-height: 23.4px;
   height: 117px;
   align-self: center;
+      margin-block-start: 50px;
   
 }
 .header-down-section {
