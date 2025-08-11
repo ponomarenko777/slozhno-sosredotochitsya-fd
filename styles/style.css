@@ -116,11 +116,11 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-color:var(--background-color);
   block-size: 100vh;
-  min-block-size: 668px;
-  min-inline-size: 375px;
+  min-block-size: 648px;
+  min-inline-size: 355px;
 }
 .title {
   grid-row: 2/3;
@@ -130,7 +130,7 @@
   text-shadow: 4px 4px 0 var(--accent-color);
   line-height: 81%;
   letter-spacing: 0;
-   justify-self: end;
+  min-height: 192px;
 }
 .title-text {
   background-color: var(--accent-color);

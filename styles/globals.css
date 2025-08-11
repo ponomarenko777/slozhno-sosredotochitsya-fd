@@ -10,7 +10,7 @@ body {
   margin: 0 auto; 
   font-family: 'IBM Plex mono', sans-serif, Arial, Helvetica;
   display: grid; 
-  padding: 10px; 
+  padding: 10px;
   overflow-x: hidden; 
 }
 
