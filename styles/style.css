@@ -48,7 +48,7 @@
 .header {
   display: grid;
   block-size: 100vh;
-  min-block-size: 648px;
+  min-block-size: 658px;
   min-inline-size: 355px;
   align-self:center;
   grid-template-rows:1fr min-content 1fr;
@@ -131,6 +131,7 @@
   line-height: 83%;
   letter-spacing: 0;
   min-height: 192px;
+      margin-block-end: 10px;
 }
 .title-text {
   background-color: var(--accent-color);
@@ -140,7 +141,7 @@
   line-height: 23.4px;
   height: 117px;
   align-self: center;
-      margin-block-start: 50px;
+      margin-block-start: 45px;
   
 }
 .header-down-section {
@@ -148,7 +149,7 @@
   grid-row: 3/4;
   flex-direction: column;
   gap: 30px;
-  justify-content: flex-end
+  /* justify-content: flex-end */
 }
 .teg-var {
   font-weight: 700;
