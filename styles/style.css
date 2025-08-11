@@ -128,7 +128,7 @@
   font-weight: 700;
   color: var(--title-color);
   text-shadow: 4px 4px 0 var(--accent-color);
-  line-height: 81%;
+  line-height: 83%;
   letter-spacing: 0;
   min-height: 192px;
 }
