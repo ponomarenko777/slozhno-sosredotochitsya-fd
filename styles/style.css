@@ -58,13 +58,14 @@
   padding-top: 10px;
   padding-bottom: 10px;
   block-size: 100vh;
-  min-block-size: 648px;
+  min-block-size: 668px;
   min-inline-size: 355px;
   overflow-x: hidden;
   overflow-y: hidden;
   position: relative;
   grid-template-rows:repeat(3,auto);
   letter-spacing: -2px;
+  margin-block-start: 40px;
 }
 .desktop {
   grid-row: 1/2;
@@ -197,7 +198,7 @@
   line-height: 83%;
   align-self: center;
   justify-content: center;
-  margin-block-start: 24px;
+  margin-block-start: 6px;
 }
 .hidden {
   min-inline-size: 355px;
