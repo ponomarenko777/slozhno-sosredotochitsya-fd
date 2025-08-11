@@ -220,7 +220,7 @@
    display: grid;
 }
 .top-section {
-  margin-block-start: 50px;
+  margin-block-start: 40px;
   gap: 20px;
 }
 .midle-section {
