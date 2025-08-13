@@ -259,7 +259,7 @@
   min-block-size: 1004px;
 }
 .header-down-section {
-gap:137px;
+  gap:137px;
 }
 body {
   padding: 20px;
@@ -442,5 +442,8 @@ grid-row: 1/2;
 }
 .desktop {
 grid-row: 1/2;
+}
+.title-down {
+margin-block-start: 16px;
 }
 }
