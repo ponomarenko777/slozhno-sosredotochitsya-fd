@@ -208,6 +208,7 @@
   color: var(--title-color);
   text-shadow: 4px 4px 0 var(--accent-color);
   line-height: 83%;
+  letter-spacing: 0;
   align-self: center;
   justify-content: center;
   margin-block-start: 6px;
@@ -246,8 +247,7 @@
   margin-block-start: 31px;
 }
 
-
-/* //////////////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 
 @media (min-width: 768px)  { 
@@ -304,19 +304,19 @@ body {
   line-height: 95%;
   letter-spacing: 0px;
   margin-inline-start: -20px;
-  margin-block-start: 50px;
+  margin-block-start: 70px;
   grid-row: 2/3;
 }
 .title-text {
- justify-self: end;
- align-self: end;
- width: 362px;
- margin-block-start: 66px;
- grid-row: 3/4;
+  justify-self: end;
+  align-self: end;
+  width: 362px;
+  margin-block-start: 66px;
+  grid-row: 3/4;
 }
 .header__corner {
- grid-row: 3/4;
- align-self: start;
+  grid-row: 3/4;
+  align-self: start;
 }
 .top-section .midle-section .down-section {
   display: grid;
@@ -324,7 +324,7 @@ body {
 .top-section {
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 2fr;
-  margin-block-start: 40px;
+  margin-block-start: 60px;
 }
 .up {
   grid-column: 1/2;
@@ -386,6 +386,8 @@ body {
 .read {
   grid-row: 6/7;
 }
+
+}
 .footer {
   grid-template-rows: 1fr 1fr 1fr;
   block-size: 100vh;
@@ -401,10 +403,10 @@ grid-row: 1/2;
   margin-block-end: 20px;
 }
 .title-down {
-margin-block-start: 20px;
+  margin-block-start: 20px;
 }
 
-
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 
 
