@@ -400,6 +400,9 @@ grid-row: 1/2;
   margin-block-start: 58px;
   margin-block-end: 20px;
 }
+.title-down {
+margin-block-start: 16px;
+}
 
 
 
@@ -443,7 +446,5 @@ grid-row: 1/2;
 .desktop {
 grid-row: 1/2;
 }
-.title-down {
-margin-block-start: 26px;
-}
+
 }
