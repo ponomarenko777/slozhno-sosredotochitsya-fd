@@ -260,7 +260,6 @@
 }
 .header-down-section {
   gap:137px;
-  margin-block-start: 10px;
 }
 body {
   padding: 20px;
@@ -313,7 +312,7 @@ body {
   justify-self: end;
   align-self: end;
   width: 362px;
-  margin-block-start: 66px;
+  margin-block-start: 77px;
   grid-row: 3/4;
 }
 .header__corner {
