@@ -388,7 +388,6 @@ body {
   grid-row: 6/7;
 }
 
-}
 .footer {
   grid-template-rows: 1fr 1fr 1fr;
   block-size: 100vh;
@@ -410,13 +409,8 @@ body {
 
 
 
-
-
-
-
-
-
 @media (width>=1024px){
+  
   
   .midle-section {
   grid-template-columns: auto auto auto;
