@@ -391,20 +391,18 @@ body {
 .footer {
   grid-template-rows: 1fr 1fr 1fr;
   block-size: 100vh;
-  min-block-size: 1024px;
+  min-block-size: 1004px;
   min-inline-size: 728px;
-  margin-block-start: 60px;
+  margin-block-start: 80px;
 }
 .desktop {
-grid-row: 1/2;
+  grid-row: 1/2;
 }
 .picture {
   margin-block-start: 58px;
   margin-block-end: 20px;
 }
-.title-down {
-  margin-block-start: 20px;
-}
+
 
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
