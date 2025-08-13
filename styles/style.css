@@ -248,6 +248,8 @@
 .teg-var.gallery {
   margin-block-start: 31px;
 }
+body {
+  padding-bottom: 0px;}
 /* //////////////////////////////////MEDIA 768px////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 @media (min-width: 768px)  { 
   .header {
@@ -305,6 +307,12 @@ body {
   margin-block-end: 0px;
   margin-block-start: 40px;
   grid-row: 2/3;
+}
+.title-down {
+  margin-block-end: 25px;
+  }
+.cub-down {
+  margin-block-end: 30px;
 }
 .title-text {
   justify-self: end;
@@ -394,7 +402,7 @@ body {
   min-block-size: 1004px;
   min-inline-size: 728px;
   margin-block-start: 80px;
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
 }
 .desktop {
   grid-row: 1/2;
