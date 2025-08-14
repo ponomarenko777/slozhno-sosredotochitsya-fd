@@ -412,7 +412,8 @@ body {
 }
 .footer {
   min-block-size: 720px;
-}
+  margin-block-start: 65px;
+} 
 .midle-section {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto auto;
