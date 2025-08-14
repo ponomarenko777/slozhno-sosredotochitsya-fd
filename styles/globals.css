@@ -9,7 +9,8 @@ body {
   margin: 0 auto; 
   font-family: 'IBM Plex mono', sans-serif, Arial, Helvetica;
   display: grid; 
-  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
   overflow-x: hidden; 
 }
 

@@ -1,9 +1,9 @@
-:root { 
-  --background-image: url('/images/cover-image-dark.png');
-  --background-color:rgb(0 0 38);
-  --accent-color: rgb(255, 0, 112);   
-  --text-color: rgb(241, 178, 206);  
-  --title-color: rgb(219, 0, 255);    
-  --decor-color: rgb(255, 0, 112);   
-  --rec-color: rgb(255, 0, 112);      
+:root {
+  --background-image: url("/images/cover-image-dark.png");
+  --background-color: rgb(0 0 38);
+  --accent-color: rgb(255, 0, 112);
+  --text-color: rgb(241, 178, 206);
+  --title-color: rgb(219, 0, 255);
+  --decor-color: rgb(255, 0, 112);
+  --rec-color: rgb(255, 0, 112);
 }
