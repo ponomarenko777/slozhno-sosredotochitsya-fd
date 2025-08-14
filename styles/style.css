@@ -58,15 +58,14 @@
 .footer {
   display: grid;
   block-size: 100vh;
-  min-block-size: 668px;
+  min-block-size: 658px;
   min-inline-size: 355px;
   overflow-x: hidden;
   overflow-y: hidden;
   position: relative;
   grid-template-rows: repeat(3, auto);
   letter-spacing: -2px;
-  margin-block-start: 35px;
-  padding-top: 10px;
+  margin-block-start: 40px;
 }
 .desktop {
   grid-row: 1/2;
@@ -114,7 +113,7 @@
   border: none;
   text-decoration: underline;
 }
-.links:focus {
+.links:focus-visible {
   text-decoration: none;
   border: 1px solid var(--text-color);
 }
@@ -125,9 +124,9 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-color: var(--background-color);
-  block-size: 100vh;
+  /* block-size: 100vh;
   min-block-size: 648px;
-  min-inline-size: 355px;
+  min-inline-size: 355px; */
 }
 .title {
   grid-row: 2/3;
@@ -138,7 +137,6 @@
   line-height: 83%;
   letter-spacing: 0;
   min-height: 192px;
-  /* margin-block-end: 20px; */
 }
 .title-text {
   background-color: var(--accent-color);
@@ -257,6 +255,7 @@ body {
     grid-template-rows: 1fr min-content 1fr;
     grid-template-columns: 1fr;
     min-block-size: 1024px;
+    padding-top: 20px;
   }
   .header-down-section {
     gap: 137px;
