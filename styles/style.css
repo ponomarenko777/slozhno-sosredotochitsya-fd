@@ -53,13 +53,14 @@
   min-inline-size: 355px;
   align-self:center;
   grid-template-rows:1fr min-content 1fr;
+  /* margin-block-end: 10px; */
 }
 .footer {
   display: grid;
   padding-top: 10px;
   /* padding-bottom: 10px; */
   block-size: 100vh;
-  min-block-size: 668px;
+  /* min-block-size: 668px; */
   min-inline-size: 355px;
   overflow-x: hidden;
   overflow-y: hidden;
@@ -137,7 +138,7 @@
   line-height: 83%;
   letter-spacing: 0;
   min-height: 192px;
-  margin-block-end: 10px;
+  margin-block-end: 20px;
 }
 .title-text {
   background-color: var(--accent-color);
@@ -147,7 +148,7 @@
   line-height: 23.4px;
   height: 117px;
   align-self: center;
-  margin-block-start: 45px;
+  margin-block-start: 35px;
 }
 .header-down-section {
   display: flex;
