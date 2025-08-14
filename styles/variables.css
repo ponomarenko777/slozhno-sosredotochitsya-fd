@@ -7,18 +7,3 @@
   --decor-color: rgb(255, 0, 112);   
   --rec-color: rgb(255, 0, 112);      
 }
-/* :root.theme-light { 
-  --background-image: url('/images/cover-image-light.png');
-  --background-color:rgb(248 237 242);
-  --accent-color: rgb(255, 141, 203);
-  --text-color: rgb(53, 52, 48);
-  --title-color: rgb(255, 194, 230);    
-  --decor-color: rgb(53, 52, 48);
-  --rec-color:transparent;
-}
-  .rec {
-    color: transparent;
-  }
-  .rec::after {
-  display: none;
-  } */
