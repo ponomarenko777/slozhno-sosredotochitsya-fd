@@ -35,7 +35,7 @@
   border-left: 1px solid var(--decor-color); 
   justify-self:left; 
   align-self:flex-end; 
-  margin-block-end: 10px;
+  /* margin-block-end: 10px; */
 }
 .wrapper {
   grid-row: 1/2;
