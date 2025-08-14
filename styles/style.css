@@ -49,7 +49,7 @@
 .header {
   display: grid;
   block-size: 100vh;
-  min-block-size: 658px;
+  min-block-size: 668px;
   min-inline-size: 355px;
   align-self:center;
   grid-template-rows:1fr min-content 1fr;
