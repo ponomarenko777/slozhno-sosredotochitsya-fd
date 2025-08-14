@@ -63,7 +63,7 @@
   position: relative;
   grid-template-rows:repeat(3,auto);
   letter-spacing: -2px;
-  margin-block-start: 39px;
+  margin-block-start: 35px;
 }
 .desktop {
   grid-row: 1/2;
