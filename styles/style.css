@@ -71,12 +71,11 @@
   grid-row: 1/2;
 }
 .header__theme-menu-list {
-  margin-block-start: 39px;
+  margin-block-start: 40px;
   display: grid;
   justify-self: end;
   gap: 10px;
   font-size: 18px;
-  padding-right: 6px;
 }
 .header__theme-menu-button {
   background-color: transparent;
@@ -85,14 +84,22 @@
 }
 .header__theme-menu-button:hover {
   border: 1px solid rgba(var(--decor-color), 0.4);
-  border: 1px solid var(--decor-color);
+  /* border: 1px solid var(--decor-color); */
+}
+
+.header__theme-menu-button {
+  width: 70px; 
+  height: 25px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .header__theme-menu-button:focus-visible {
   border-bottom: 1px solid var(--decor-color);
   border-top: none;
   border-left: none;
   border-right: none;
-}
+} 
 .header__theme-menu-item {
   color: transparent;
   background-color: transparent;
@@ -480,7 +487,6 @@
   }
   .header__theme-menu-list {
     margin-block-start: 0px;
-    gap: 25px;
     margin-inline-end: 48px;
   }
   .gallery {
