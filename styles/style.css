@@ -263,6 +263,7 @@ body {
 }
 body {
   padding: 20px;
+  padding-bottom: 0px;
 } 
 .gallery {
   grid-auto-flow: dense;
@@ -312,7 +313,7 @@ body {
   margin-block-end: 25px;
   }
 .cub-down {
-  margin-block-end: 30px;
+  margin-block-end: 10px;
 }
 .title-text {
   justify-self: end;
@@ -322,7 +323,7 @@ body {
   grid-row: 3/4;
 }
 .title-down {
-  margin-block-start:0px;
+  margin-block-start:20px;
 }
 .header__corner {
   grid-row: 3/4;
