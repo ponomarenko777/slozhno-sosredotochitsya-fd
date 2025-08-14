@@ -1,4 +1,4 @@
-:root.theme-dark {
+:root { 
   --background-image: url('/images/cover-image-dark.png');
   --background-color:rgb(0 0 38);
   --accent-color: rgb(255, 0, 112);   
@@ -7,7 +7,7 @@
   --decor-color: rgb(255, 0, 112);   
   --rec-color: rgb(255, 0, 112);      
 }
-:root.theme-light { 
+/* :root.theme-light { 
   --background-image: url('/images/cover-image-light.png');
   --background-color:rgb(248 237 242);
   --accent-color: rgb(255, 141, 203);
@@ -21,4 +21,4 @@
   }
   .rec::after {
   display: none;
-  }
+  } */

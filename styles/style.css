@@ -85,6 +85,7 @@
   border:1px solid var(--decor-color);
 }
 .header__theme-menu-button:focus-visible {
+  border-bottom:1px solid var(--decor-color);
   border-top: none;
   border-left: none;
   border-right: none;
