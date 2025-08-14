@@ -411,7 +411,7 @@ body {
   margin-block-start: 262px;;
 }
 .footer {
-  /* min-block-size: 746px; */
+  min-block-size: 736px;
 }
 .midle-section {
   grid-template-columns: 1fr 1fr 1fr;
