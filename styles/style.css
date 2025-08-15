@@ -66,6 +66,7 @@
   grid-template-rows: repeat(3, auto);
   letter-spacing: -2px;
   margin-block-start: 40px;
+  padding-block-end: 10px;
 }
 .desktop {
   grid-row: 1/2;
@@ -88,8 +89,8 @@
 }
 
 .header__theme-menu-button {
-  width: 70px; 
-  height: 25px; 
+  width: 70px;
+  height: 25px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -99,7 +100,7 @@
   border-top: none;
   border-left: none;
   border-right: none;
-} 
+}
 .header__theme-menu-item {
   color: transparent;
   background-color: transparent;
@@ -264,7 +265,6 @@
   body {
     padding-left: 20px;
     padding-right: 20px;
-    
   }
   .gallery {
     grid-auto-flow: dense;
@@ -419,7 +419,7 @@
     align-content: center;
   }
   .header-down-section {
-    gap:90px;
+    gap: 90px;
   }
   .footer {
     min-block-size: 768px;
