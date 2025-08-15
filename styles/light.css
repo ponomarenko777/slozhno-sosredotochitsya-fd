@@ -1,13 +1,14 @@
 :root.theme-light {
-  --background-image: url("/images/cover-image-light.png");
+  --background-image: url("../images/cover-image-light.png");
   --background-color: rgb(248 237 242);
   --accent-color: rgb(255, 141, 203);
   --text-color: rgb(53, 52, 48);
   --title-color: rgb(255, 194, 230);
   --decor-color: rgb(53, 52, 48);
   --rec-color: transparent;
+  --text-text-color:rgb(53, 52, 48);
   .rec {
-    color: transparent;
+    display: none;
   }
   .rec::after {
     display: none;
@@ -15,15 +16,16 @@
 }
 @media (prefers-color-scheme: light) {
   :root {
-    --background-image: url("/images/cover-image-light.png");
+    --background-image: url("../images/cover-image-light.png");
     --background-color: rgb(248 237 242);
     --accent-color: rgb(255, 141, 203);
     --text-color: rgb(53, 52, 48);
     --title-color: rgb(255, 194, 230);
     --decor-color: rgb(53, 52, 48);
     --rec-color: transparent;
+    --text-text-color:rgb(53, 52, 48);
     .rec {
-      color: transparent;
+      display: none;
     }
     .rec::after {
       display: none;
