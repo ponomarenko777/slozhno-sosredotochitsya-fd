@@ -128,11 +128,14 @@
   line-height: 23.4px;
   color: var(--text-color);
   text-shadow: 2px 2px 0 var(--accent-color);
-  cursor: pointer;
+  cursor: pointer; 
 }
 .links:hover {
   border: none;
   text-decoration: underline;
+}
+.links:focus {
+  outline: none;
 }
 .links:focus-visible {
   text-decoration: none;
