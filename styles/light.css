@@ -6,7 +6,7 @@
   --title-color: rgb(255, 194, 230);
   --decor-color: rgb(53, 52, 48);
   --rec-color: transparent;
-  --text-text-color:rgb(53, 52, 48);
+  --text-text-color: rgb(53, 52, 48);
   .rec {
     display: none;
   }
@@ -23,7 +23,7 @@
     --title-color: rgb(255, 194, 230);
     --decor-color: rgb(53, 52, 48);
     --rec-color: transparent;
-    --text-text-color:rgb(53, 52, 48);
+    --text-text-color: rgb(53, 52, 48);
     .rec {
       display: none;
     }

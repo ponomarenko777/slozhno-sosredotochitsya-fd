@@ -7,11 +7,11 @@
 body {
   min-inline-size: 375px;
   max-inline-size: 1024px;
-  margin: 0 auto; 
-  font-family: 'IBM Plex Mono', Arial, Helvetica, sans-serif;
-  display: grid; 
+  margin: 0 auto;
+  font-family: "IBM Plex Mono", Arial, Helvetica, sans-serif;
+  display: grid;
   padding-left: 10px;
-  padding-right: 10px; 
+  padding-right: 10px;
 }
 
 h1,
