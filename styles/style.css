@@ -173,7 +173,14 @@
   line-height: 23.4px;
   align-self: center;
 }
-h4 {
+h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23.4px;
+  color: var(--decor-color);
+  width: 100%;
+}
+h3 {
   font-weight: 700;
   font-size: 18px;
   line-height: 23.4px;
@@ -181,20 +188,13 @@ h4 {
   background-color: var(--accent-color);
   min-inline-size: 355px;
 }
-h5 {
+h4 {
   font-weight: 400;
   font-size: 18px;
   line-height: 23.4px;
   color: var(--text-text-color);
   background-color: var(--accent-color);
   min-inline-size: 355px;
-}
-h3 {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 23.4px;
-  color: var(--decor-color);
-  width: 100%;
 }
 .teg-text {
   font-weight: 400;
@@ -245,6 +245,8 @@ h4.recomendation {
 }
 .picture {
   margin-block-end: 10px;
+  background-color: var(--accent-color);
+  color: var(--text-text-color);
 }
 h4.gallery {
   margin-block-start: 31px;
@@ -312,8 +314,8 @@ h4.gallery {
     margin-block-start: 155px;
   }
   .block-question {
-    grid-template-columns: calc((100% - 30px) * 1 / 3) calc(
-        (100% - 30px) * 2 / 3
+    grid-template-columns: calc((100% - 20px) * 1 / 3) calc(
+        (100% - 20px) * 2 / 3
       );
   }
   main {
@@ -367,7 +369,6 @@ h4.gallery {
     bottom: 20px;
   }
 }
-
 @media (min-width: 1024px) {
   .header {
     min-block-size: 768px;

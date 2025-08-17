@@ -8,10 +8,10 @@
   --rec-color: transparent;
   --text-text-color: rgb(53, 52, 48);
   .rec {
-    display: none;
+    display: hidden;
   }
   .rec::after {
-    display: none;
+    display: hidden;
   }
 }
 @media (prefers-color-scheme: light) {
@@ -23,12 +23,11 @@
     --title-color: rgb(255, 194, 230);
     --decor-color: rgb(53, 52, 48);
     --rec-color: transparent;
-    --text-text-color: rgb(53, 52, 48);
+    --text-text-color: rgb(53, 52, 48);}
     .rec {
-      display: none;
+      display: hidden;
     }
     .rec::after {
-      display: none;
+      display: hidden;
     }
-  }
 }
