@@ -6,14 +6,12 @@
 
 body {
   min-inline-size: 375px;
-  max-inline-size: 1024px;
   margin: 0 auto;
   font-family: "IBM Plex Mono", Arial, Helvetica, sans-serif;
   display: grid;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 0 10px;
+  box-sizing: border-box;
 }
-
 h1,
 h2,
 h3,
