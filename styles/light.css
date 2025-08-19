@@ -21,6 +21,11 @@
       margin-block-start: 170px;
     }
   }
+  @media (min-width: 1024px) {
+    .header__theme-menu-list {
+      margin-block-start: 0px;
+    }
+  }
 }
 @media (prefers-color-scheme: light) {
   :root {
@@ -45,6 +50,11 @@
   @media (min-width: 768px) {
     .header__theme-menu-list {
       margin-block-start: 170px;
+    }
+  }
+   @media (min-width: 1024px) {
+    .header__theme-menu-list {
+      margin-block-start: 0px;
     }
   }
 }
