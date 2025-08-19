@@ -85,7 +85,7 @@
 }
 
 .theme-light .header__theme-menu-list {
-  margin-block-start: 60px;
+  margin-block-start: 65px;
 }
 .header__theme-menu-button {
   background-color: transparent;
@@ -278,7 +278,7 @@ h4.gallery {
     margin-block-start: 145px;
   }
   .theme-light .header__theme-menu-list {
-    margin-block-start: 170px;
+    margin-block-start: 175px;
   }
   .gallery img {
     width: 100%;
