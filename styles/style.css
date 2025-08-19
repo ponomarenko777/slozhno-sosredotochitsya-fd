@@ -412,9 +412,8 @@ h4.gallery {
   .header__theme-menu-list {
     justify-self: center;
     grid-auto-flow: column;
-  }
-  .theme-light .header__theme-menu-list {
     margin-block-start: 0px;
+    margin-inline-end: 48px;
   }
   .desktop {
     display: grid;
@@ -441,10 +440,6 @@ h4.gallery {
   }
   h3 {
     min-inline-size: 100px;
-  }
-  .header__theme-menu-list {
-    margin-block-start: 0px;
-    margin-inline-end: 48px;
   }
   .gallery {
     min-block-size: 1040px;
