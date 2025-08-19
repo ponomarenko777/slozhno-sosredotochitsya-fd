@@ -83,10 +83,6 @@
   gap: 10px;
   font-size: 18px;
 }
-
-.theme-light .header__theme-menu-list {
-  margin-block-start: 80px;
-}
 .header__theme-menu-button {
   background-color: transparent;
   border: none;
@@ -276,9 +272,6 @@ h4.gallery {
   }
   .header__theme-menu-list {
     margin-block-start: 145px;
-  }
-  .theme-light .header__theme-menu-list {
-    margin-block-start: 190px;
   }
   .gallery img {
     width: 100%;

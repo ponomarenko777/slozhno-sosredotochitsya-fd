@@ -13,6 +13,14 @@
   .rec::after {
     display: none;
   }
+  .header__theme-menu-list {
+    margin-block-start: 60px;
+  }
+  @media (min-width: 768px) {
+    .header__theme-menu-list {
+      margin-block-start: 170px;
+    }
+  }
 }
 @media (prefers-color-scheme: light) {
   :root {
@@ -30,5 +38,13 @@
   }
   .rec::after {
     display: none;
+  }
+  .header__theme-menu-list {
+    margin-block-start: 60px;
+  }
+  @media (min-width: 768px) {
+    .header__theme-menu-list {
+      margin-block-start: 170px;
+    }
   }
 }
